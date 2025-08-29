@@ -1,0 +1,19 @@
+# Node
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store
+
+# Next.js
+.next
+out
+
+# Testing/Cypress
+coverage
+cypress/screenshots
+cypress/videos
+
+# Env
+.env

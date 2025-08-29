@@ -1,0 +1,6 @@
+- Tailwind configured with dark mode class strategy and shadcn tokens.
+- Providers include React Query.
+- Unit tests via Jest + RTL.
+- E2E via Cypress.
+- ESLint uses flat config with plugins for React, hooks, import, and removing unused imports.
+- Pre-commit uses lint-staged via Husky.
