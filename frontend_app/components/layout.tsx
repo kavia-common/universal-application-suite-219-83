@@ -272,8 +272,11 @@ export default function Layout({ children }: LayoutProps) {
           <div style={styles.dropdown} role="menu" onClick={(e) => e.stopPropagation()}>
             <div style={{ padding: "6px 8px", fontWeight: 700 }}>Kishore</div>
             <div style={styles.divider} />
+            <a href="/app/profile" style={styles.dropdownItem}>
+              Profile
+            </a>
             <a href="/app/settings" style={styles.dropdownItem}>
-              Profile & Settings
+              Settings
             </a>
             <a href="/app/reports" style={styles.dropdownItem}>
               Reports
@@ -310,6 +313,11 @@ export default function Layout({ children }: LayoutProps) {
             <li>
               <a href="/app/reports" style={styles.navLink}>
                 Reports
+              </a>
+            </li>
+            <li>
+              <a href="/app/profile" style={styles.navLink}>
+                Profile
               </a>
             </li>
             <li>
@@ -351,6 +359,11 @@ export default function Layout({ children }: LayoutProps) {
           <li>
             <a href="/app/reports" style={styles.navLink} onClick={() => setSidebarOpen(false)}>
               Reports
+            </a>
+          </li>
+          <li>
+            <a href="/app/profile" style={styles.navLink} onClick={() => setSidebarOpen(false)}>
+              Profile
             </a>
           </li>
           <li>
